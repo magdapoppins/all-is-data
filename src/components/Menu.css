@@ -1,0 +1,9 @@
+.topMenu {
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    justify-content: space-between;
+}
+
+.menuItem {
+    font-size: 1.2em;
+}
