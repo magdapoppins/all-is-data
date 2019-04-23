@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 .topMenu {
     display: flex;
     padding: 10px 40px 10px 40px;
     justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
 }
 
 .menuItem {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }

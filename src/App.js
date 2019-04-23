@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Menu from './components/Menu'
 import BarChart from './components/BarChart';
+import Content from './components/Content';
 
 const App = () => {
 	const topics = [
@@ -40,10 +41,7 @@ const App = () => {
 	return (
 		<div>
 			<Menu topics={topics} selectTopic={selectTopic} />
-			<div>
-				<h1>{selectedTopic.name}</h1>
-				<BarChart data={selectedTopic.data} />
-			</div> 
+			<Content topic={selectedTopic} />
 		</div>
 	)
 }
