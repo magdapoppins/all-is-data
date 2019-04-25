@@ -28,8 +28,8 @@ This project uses React and D3 to create visualizations of data from open APIs i
 - [LuKe](http://statdb.luke.fi/PXWeb/pxweb/fi/LUKE/LUKE__04%20Metsa__06%20Metsavarat/?tablelist=true)
 
 ## Styling
-Fonts used: Nunito and Quicksand via [Google Fonts](https://fonts.google.com/).
-Main colors:  
+Fonts used: Nunito and Quicksand via [Google Fonts](https://fonts.google.com/).  
+**Main colors:**  
 #FF7370  
 #E866BD  
 #E37EFF  
