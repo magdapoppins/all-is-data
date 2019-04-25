@@ -5,7 +5,7 @@ const Menu = (props) => {
     return (
         <div className="topMenu">
             {props.topics.map(topic => 
-                <h2 className="menuItem" onClick={() => props.selectTopic(topic.name)} key={topic.name}>{topic.name}</h2>)}
+                <h2 className="menuItem" onClick={() => props.selectTopic(topic)} key={topic.name}>{topic.name}</h2>)}
         </div>
     )
 } 
